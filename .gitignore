@@ -1,8 +1,5 @@
-
-(
-echo target/
-echo .idea/
-echo *.iml
-echo .vscode/
-echo application-local.properties
-) > .gitignore
+target/
+*.class
+.env
+.env.*
+!.env.example
